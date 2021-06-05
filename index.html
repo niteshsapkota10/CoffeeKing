@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee King</title>
+
+    <!-- M Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- M Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="fnavbar navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">CofeeKing</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Coffee!</a></li>
+            <li><a href="#" onclick="toggleModal();">Suprise!</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal();">Home</a></li>
+        <li><a href="#" onclick="toggleModal();">About Us</a></li>
+        <li><a href="#" onclick="toggleModal();">Coffee!</a></li>
+        <li><a href="#" onclick="toggleModal();">Suprise!</a></li>
+        <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./images/banner1.jpg" alt="Image One" />
+            <div class="caption center-align white-text">
+              <h3>CakeKing - Quality Cafe</h3>
+              <h3 class="light text-lighten-5">
+                We Serve One of the Best Coffee Around.
+              </h3>
+            </div>
+          </li>
+          <li>
+            <img src="./images/banner3.jpg" alt="Image One" />
+            <div class="caption center-align white-text">
+              <h3>CakeKing - Finnest Cafe</h3>
+              <h3 class="light text-lighten-5">
+                We Serve One of the Best Coffee Around.
+              </h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="descrip">
+      <div class="section white center">
+        <h2 class="header">CofeeKing - Ultimate Quality Coffee</h2>
+      </div>
+      <div class="row container center">
+        <div class="col center l8 s12 move">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          accusamus impedit numquam cupiditate, aliquam quibusdam maxime
+          excepturi quod repellat eligendi, maiores earum itaque odio. Ab odit
+          doloremque facere obcaecati nostrum dolore maxime modi magnam,
+          mollitia esse asperiores dolorem nam quae! Iure beatae rerum placeat
+          veniam libero, officiis provident vel fugiat rem nemo deserunt odio
+          harum unde, dolorem vitae voluptatibus nam iusto aperiam voluptatem
+          porro et. Vitae, quam omnis. Eaque, soluta ab perspiciatis est sequi
+          corporis quam pariatur? Facere assumenda expedita aperiam ea obcaecati
+          voluptates magnam pariatur quaerat sequi recusandae! Eaque illum
+          asperiores expedita amet tempore ab aliquid aut facere iure.
+        </div>
+        <div class="col center l4 s12">
+          <img
+            src="./images/cofee.png"
+            style="object-fit: contain"
+            height="200"
+            width="auto"
+            alt="Coffee"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="fcards">
+      <div class="row" style="padding-left: 50px; padding-right: 50px">
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/banner1.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Cofeee Oneo<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Coffee Oneo<i class="material-icons right">close</i></span
+              >
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorem, ducimus!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/banner1.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Cofeee Twoe<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Coffee Twoe<i class="material-icons right">close</i></span
+              >
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorem, ducimus!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/banner1.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Cofeee Thire<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Coffee Thire<i class="material-icons right">close</i></span
+              >
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorem, ducimus!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fparallax">
+      <div class="parallax-container">
+        <div class="parallax"><img src="./images/banner3.jpg" /></div>
+      </div>
+    </section>
+
+    <!-- <a href="#" onclick="toggleModal();">Click Here </a> -->
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Link Disabled</h4>
+          <p id="info-modal-content">Sorry! All Links are disabled....</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat red">Close</a>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- Jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha512-k2WPPrSgRFI6cTaHHhJdc8kAXaRM4JBFEDo1pPGGlYiOyv4vnA0Pp0G5XMYYxgAPmtmv/IIaQA6n5fLAyJaFMA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- M JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- CustomJs -->
+  <script src="./js/loader.js"></script>
+</html>
